@@ -60,6 +60,20 @@ void RegisterLuaFunctions() {
 	lua["GetBoxY"] = [&]{ return boxY; };
 }
 
+bool LoadLuaScript()
+{
+    auto result = lua.safe_script_file("/assets/scripts/main.lua");
+
+    if (!result.valid()) {
+        sol::error err = result;
+        std::cerr << "Lua script failed: " << err.what() << std::endl;
+        return false;
+    }
+
+    return true;
+}
+
+
 void GameLoop()
 {
 	SDL_Event event;
@@ -74,6 +88,11 @@ void GameLoop()
         }
     }
 
+	if (!LoadLuaScript()) {
+		exit(0);
+    }
+
+
     // Do Rendering
 	SDL_SetRenderDrawColor(pRenderer, 0, 0, 0, 255);
     SDL_RenderClear( pRenderer );
@@ -85,19 +104,6 @@ void GameLoop()
     SDL_RenderPresent(pRenderer);
 }
 
-bool LoadLuaScript()
-{
-    auto result = lua.safe_script_file("/assets/scripts/main.lua");
-
-    if (!result.valid()) {
-        sol::error err = result;
-        std::cerr << "Lua script failed: " << err.what() << std::endl;
-        return false;
-    }
-
-    return true;
-}
-
 int main()
 {
 	std::cout << "Registering Lua Functions...\n";
@@ -105,11 +111,7 @@ int main()
 	std::cout << "Registered Lua Functions...\n";
 
 
-    if (!LoadLuaScript()) {
-        return -1;
-    }
-
-
+   
  	std::cout << "Starting game...\n";
     if (!InitSDL()) {
 		return -1;
