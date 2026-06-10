@@ -64,7 +64,7 @@ int main() {
 
 	// Game loop
 	while(!glfwWindowShouldClose(window)) {
-		// Clear the screen
+		// Clear the screen; any change takes affect only after calling this
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		// Draw 3 vertices and start from the first one (0).

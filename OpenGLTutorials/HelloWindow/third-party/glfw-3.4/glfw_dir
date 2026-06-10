@@ -1,0 +1,1004 @@
+.
+├── CMake
+│   ├── cmake_uninstall.cmake.in
+│   ├── GenerateMappings.cmake
+│   ├── glfw3Config.cmake.in
+│   ├── glfw3.pc.in
+│   ├── i686-w64-mingw32-clang.cmake
+│   ├── i686-w64-mingw32.cmake
+│   ├── Info.plist.in
+│   ├── modules
+│   │   ├── FindEpollShim.cmake
+│   │   └── FindOSMesa.cmake
+│   ├── x86_64-w64-mingw32-clang.cmake
+│   └── x86_64-w64-mingw32.cmake
+├── CMakeCache.txt
+├── CMakeFiles
+│   ├── 4.3.3
+│   │   ├── CMakeCCompiler.cmake
+│   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   ├── CMakeSystem.cmake
+│   │   └── CompilerIdC
+│   │       ├── a.out
+│   │       ├── CMakeCCompilerId.c
+│   │       └── tmp
+│   ├── cmake.check_cache
+│   ├── CMakeConfigureLog.yaml
+│   ├── CMakeDirectoryInformation.cmake
+│   ├── CMakeRuleHashes.txt
+│   ├── CMakeScratch
+│   ├── Export
+│   │   └── f367bd07922f2ecfc14cf5547f1f7c4e
+│   │       ├── glfw3Targets.cmake
+│   │       └── glfw3Targets-noconfig.cmake
+│   ├── InstallScripts.json
+│   ├── Makefile2
+│   ├── Makefile.cmake
+│   ├── pkgRedirects
+│   ├── progress.marks
+│   ├── TargetDirectories.txt
+│   └── uninstall.dir
+│       ├── build.make
+│       ├── cmake_clean.cmake
+│       ├── compiler_depend.make
+│       ├── compiler_depend.ts
+│       ├── DependInfo.cmake
+│       └── progress.make
+├── cmake_install.cmake
+├── CMakeLists.txt
+├── cmake_uninstall.cmake
+├── CONTRIBUTORS.md
+├── deps
+│   ├── getopt.c
+│   ├── getopt.h
+│   ├── glad
+│   │   ├── gles2.h
+│   │   ├── gl.h
+│   │   └── vulkan.h
+│   ├── linmath.h
+│   ├── mingw
+│   │   ├── dinput.h
+│   │   ├── _mingw_dxhelper.h
+│   │   └── xinput.h
+│   ├── nuklear_glfw_gl2.h
+│   ├── nuklear.h
+│   ├── stb_image_write.h
+│   ├── tinycthread.c
+│   ├── tinycthread.h
+│   └── wayland
+│       ├── fractional-scale-v1.xml
+│       ├── idle-inhibit-unstable-v1.xml
+│       ├── pointer-constraints-unstable-v1.xml
+│       ├── relative-pointer-unstable-v1.xml
+│       ├── viewporter.xml
+│       ├── wayland.xml
+│       ├── xdg-activation-v1.xml
+│       ├── xdg-decoration-unstable-v1.xml
+│       └── xdg-shell.xml
+├── docs
+│   ├── build.md
+│   ├── CMakeFiles
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   └── progress.marks
+│   ├── cmake_install.cmake
+│   ├── CMakeLists.txt
+│   ├── compat.md
+│   ├── compile.md
+│   ├── context.md
+│   ├── CONTRIBUTING.md
+│   ├── Doxyfile.in
+│   ├── DoxygenLayout.xml
+│   ├── extra.css
+│   ├── extra.css.map
+│   ├── extra.scss
+│   ├── footer.html
+│   ├── header.html
+│   ├── html
+│   │   ├── bc_sd.png
+│   │   ├── bc_s.png
+│   │   ├── build_8md.html
+│   │   ├── build_guide.html
+│   │   ├── closed.png
+│   │   ├── compat_8md.html
+│   │   ├── compat_guide.html
+│   │   ├── compile_8md.html
+│   │   ├── compile_guide.html
+│   │   ├── context_8md.html
+│   │   ├── context_guide.html
+│   │   ├── deprecated.html
+│   │   ├── dir_13577e2d8b9423099662de029791bd7d.html
+│   │   ├── dir_7f92719a7fe62e5b064f87d7a3c220b1.html
+│   │   ├── dir_a788ef6c2b1e5b367804e0b6ccfd6f11.html
+│   │   ├── dir_b11153cd0f4fd04a7564cc166f482635.html
+│   │   ├── docd.svg
+│   │   ├── doc.svg
+│   │   ├── doxygen.css
+│   │   ├── doxygen.svg
+│   │   ├── dynsections.js
+│   │   ├── extra.css
+│   │   ├── files.html
+│   │   ├── folderclosedd.svg
+│   │   ├── folderclosed.svg
+│   │   ├── folderopend.svg
+│   │   ├── folderopen.svg
+│   │   ├── glfw3_8h.html
+│   │   ├── glfw3_8h_source.html
+│   │   ├── glfw3native_8h.html
+│   │   ├── glfw3native_8h_source.html
+│   │   ├── group__buttons.html
+│   │   ├── group__context.html
+│   │   ├── group__errors.html
+│   │   ├── group__gamepad__axes.html
+│   │   ├── group__gamepad__buttons.html
+│   │   ├── group__hat__state.html
+│   │   ├── group__init.html
+│   │   ├── group__input.html
+│   │   ├── group__joysticks.html
+│   │   ├── group__keys.html
+│   │   ├── group__mods.html
+│   │   ├── group__monitor.html
+│   │   ├── group__native.html
+│   │   ├── group__shapes.html
+│   │   ├── group__vulkan.html
+│   │   ├── group__window.html
+│   │   ├── index.html
+│   │   ├── input_8md.html
+│   │   ├── input_guide.html
+│   │   ├── internal_8md.html
+│   │   ├── internals_guide.html
+│   │   ├── intro_8md.html
+│   │   ├── intro_guide.html
+│   │   ├── jquery.js
+│   │   ├── main_8md.html
+│   │   ├── menudata.js
+│   │   ├── menu.js
+│   │   ├── minusd.svg
+│   │   ├── minus.svg
+│   │   ├── monitor_8md.html
+│   │   ├── monitor_guide.html
+│   │   ├── moving_8md.html
+│   │   ├── moving_guide.html
+│   │   ├── nav_fd.png
+│   │   ├── nav_f.png
+│   │   ├── nav_g.png
+│   │   ├── nav_hd.png
+│   │   ├── nav_h.png
+│   │   ├── news_8md.html
+│   │   ├── news.html
+│   │   ├── open.png
+│   │   ├── pages.html
+│   │   ├── plusd.svg
+│   │   ├── plus.svg
+│   │   ├── quick_8md.html
+│   │   ├── quick_guide.html
+│   │   ├── search
+│   │   │   ├── all_0.js
+│   │   │   ├── all_10.js
+│   │   │   ├── all_11.js
+│   │   │   ├── all_12.js
+│   │   │   ├── all_13.js
+│   │   │   ├── all_14.js
+│   │   │   ├── all_15.js
+│   │   │   ├── all_16.js
+│   │   │   ├── all_17.js
+│   │   │   ├── all_18.js
+│   │   │   ├── all_19.js
+│   │   │   ├── all_1a.js
+│   │   │   ├── all_1b.js
+│   │   │   ├── all_1c.js
+│   │   │   ├── all_1d.js
+│   │   │   ├── all_1e.js
+│   │   │   ├── all_1f.js
+│   │   │   ├── all_1.js
+│   │   │   ├── all_2.js
+│   │   │   ├── all_3.js
+│   │   │   ├── all_4.js
+│   │   │   ├── all_5.js
+│   │   │   ├── all_6.js
+│   │   │   ├── all_7.js
+│   │   │   ├── all_8.js
+│   │   │   ├── all_9.js
+│   │   │   ├── all_a.js
+│   │   │   ├── all_b.js
+│   │   │   ├── all_c.js
+│   │   │   ├── all_d.js
+│   │   │   ├── all_e.js
+│   │   │   ├── all_f.js
+│   │   │   ├── classes_0.js
+│   │   │   ├── close.svg
+│   │   │   ├── defines_0.js
+│   │   │   ├── files_0.js
+│   │   │   ├── files_1.js
+│   │   │   ├── files_2.js
+│   │   │   ├── files_3.js
+│   │   │   ├── files_4.js
+│   │   │   ├── files_5.js
+│   │   │   ├── files_6.js
+│   │   │   ├── files_7.js
+│   │   │   ├── files_8.js
+│   │   │   ├── functions_0.js
+│   │   │   ├── groups_0.js
+│   │   │   ├── groups_10.js
+│   │   │   ├── groups_1.js
+│   │   │   ├── groups_2.js
+│   │   │   ├── groups_3.js
+│   │   │   ├── groups_4.js
+│   │   │   ├── groups_5.js
+│   │   │   ├── groups_6.js
+│   │   │   ├── groups_7.js
+│   │   │   ├── groups_8.js
+│   │   │   ├── groups_9.js
+│   │   │   ├── groups_a.js
+│   │   │   ├── groups_b.js
+│   │   │   ├── groups_c.js
+│   │   │   ├── groups_d.js
+│   │   │   ├── groups_e.js
+│   │   │   ├── groups_f.js
+│   │   │   ├── mag_d.svg
+│   │   │   ├── mag_seld.svg
+│   │   │   ├── mag_sel.svg
+│   │   │   ├── mag.svg
+│   │   │   ├── pages_0.js
+│   │   │   ├── pages_10.js
+│   │   │   ├── pages_11.js
+│   │   │   ├── pages_1.js
+│   │   │   ├── pages_2.js
+│   │   │   ├── pages_3.js
+│   │   │   ├── pages_4.js
+│   │   │   ├── pages_5.js
+│   │   │   ├── pages_6.js
+│   │   │   ├── pages_7.js
+│   │   │   ├── pages_8.js
+│   │   │   ├── pages_9.js
+│   │   │   ├── pages_a.js
+│   │   │   ├── pages_b.js
+│   │   │   ├── pages_c.js
+│   │   │   ├── pages_d.js
+│   │   │   ├── pages_e.js
+│   │   │   ├── pages_f.js
+│   │   │   ├── search.css
+│   │   │   ├── searchdata.js
+│   │   │   ├── search.js
+│   │   │   ├── typedefs_0.js
+│   │   │   ├── variables_0.js
+│   │   │   ├── variables_1.js
+│   │   │   ├── variables_2.js
+│   │   │   ├── variables_3.js
+│   │   │   ├── variables_4.js
+│   │   │   ├── variables_5.js
+│   │   │   ├── variables_6.js
+│   │   │   ├── variables_7.js
+│   │   │   ├── variables_8.js
+│   │   │   └── variables_9.js
+│   │   ├── spaces.svg
+│   │   ├── splitbard.png
+│   │   ├── splitbar.png
+│   │   ├── struct_g_l_f_wallocator.html
+│   │   ├── struct_g_l_f_wgamepadstate.html
+│   │   ├── struct_g_l_f_wgammaramp.html
+│   │   ├── struct_g_l_f_wimage.html
+│   │   ├── struct_g_l_f_wvidmode.html
+│   │   ├── sync_off.png
+│   │   ├── sync_on.png
+│   │   ├── tab_ad.png
+│   │   ├── tab_a.png
+│   │   ├── tab_bd.png
+│   │   ├── tab_b.png
+│   │   ├── tab_hd.png
+│   │   ├── tab_h.png
+│   │   ├── tabs.css
+│   │   ├── tab_sd.png
+│   │   ├── tab_s.png
+│   │   ├── topics.html
+│   │   ├── vulkan_8md.html
+│   │   ├── vulkan_guide.html
+│   │   ├── window_8md.html
+│   │   └── window_guide.html
+│   ├── input.md
+│   ├── internal.md
+│   ├── intro.md
+│   ├── main.md
+│   ├── Makefile
+│   ├── monitor.md
+│   ├── moving.md
+│   ├── news.md
+│   ├── quick.md
+│   ├── spaces.svg
+│   ├── SUPPORT.md
+│   ├── vulkan.md
+│   └── window.md
+├── examples
+│   ├── boing
+│   ├── boing.c
+│   ├── CMakeFiles
+│   │   ├── boing.dir
+│   │   │   ├── boing.c.o
+│   │   │   ├── boing.c.o.d
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   └── progress.make
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── gears.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── gears.c.o
+│   │   │   ├── gears.c.o.d
+│   │   │   ├── link.txt
+│   │   │   └── progress.make
+│   │   ├── heightmap.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── heightmap.c.o
+│   │   │   ├── heightmap.c.o.d
+│   │   │   ├── link.txt
+│   │   │   └── progress.make
+│   │   ├── offscreen.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── offscreen.c.o
+│   │   │   ├── offscreen.c.o.d
+│   │   │   └── progress.make
+│   │   ├── particles.dir
+│   │   │   ├── __
+│   │   │   │   └── deps
+│   │   │   │       ├── getopt.c.o
+│   │   │   │       ├── getopt.c.o.d
+│   │   │   │       ├── tinycthread.c.o
+│   │   │   │       └── tinycthread.c.o.d
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── particles.c.o
+│   │   │   ├── particles.c.o.d
+│   │   │   └── progress.make
+│   │   ├── progress.marks
+│   │   ├── sharing.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sharing.c.o
+│   │   │   └── sharing.c.o.d
+│   │   ├── splitview.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── splitview.c.o
+│   │   │   └── splitview.c.o.d
+│   │   ├── triangle-opengl.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── triangle-opengl.c.o
+│   │   │   └── triangle-opengl.c.o.d
+│   │   ├── triangle-opengles.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── triangle-opengles.c.o
+│   │   │   └── triangle-opengles.c.o.d
+│   │   ├── wave.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── wave.c.o
+│   │   │   └── wave.c.o.d
+│   │   └── windows.dir
+│   │       ├── build.make
+│   │       ├── cmake_clean.cmake
+│   │       ├── compiler_depend.internal
+│   │       ├── compiler_depend.make
+│   │       ├── compiler_depend.ts
+│   │       ├── DependInfo.cmake
+│   │       ├── depend.make
+│   │       ├── flags.make
+│   │       ├── link.txt
+│   │       ├── progress.make
+│   │       ├── windows.c.o
+│   │       └── windows.c.o.d
+│   ├── cmake_install.cmake
+│   ├── CMakeLists.txt
+│   ├── gears
+│   ├── gears.c
+│   ├── glfw.icns
+│   ├── glfw.ico
+│   ├── glfw.rc
+│   ├── heightmap
+│   ├── heightmap.c
+│   ├── Makefile
+│   ├── offscreen
+│   ├── offscreen.c
+│   ├── particles
+│   ├── particles.c
+│   ├── sharing
+│   ├── sharing.c
+│   ├── splitview
+│   ├── splitview.c
+│   ├── triangle-opengl
+│   ├── triangle-opengl.c
+│   ├── triangle-opengles
+│   ├── triangle-opengles.c
+│   ├── wave
+│   ├── wave.c
+│   ├── windows
+│   └── windows.c
+├── glfw_dir
+├── include
+│   └── GLFW
+│       ├── glfw3.h
+│       └── glfw3native.h
+├── LICENSE.md
+├── Makefile
+├── README.md
+├── src
+│   ├── CMakeFiles
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── glfw.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── context.c.o
+│   │   │   ├── context.c.o.d
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── egl_context.c.o
+│   │   │   ├── egl_context.c.o.d
+│   │   │   ├── flags.make
+│   │   │   ├── glx_context.c.o
+│   │   │   ├── glx_context.c.o.d
+│   │   │   ├── init.c.o
+│   │   │   ├── init.c.o.d
+│   │   │   ├── input.c.o
+│   │   │   ├── input.c.o.d
+│   │   │   ├── link.txt
+│   │   │   ├── linux_joystick.c.o
+│   │   │   ├── linux_joystick.c.o.d
+│   │   │   ├── monitor.c.o
+│   │   │   ├── monitor.c.o.d
+│   │   │   ├── null_init.c.o
+│   │   │   ├── null_init.c.o.d
+│   │   │   ├── null_joystick.c.o
+│   │   │   ├── null_joystick.c.o.d
+│   │   │   ├── null_monitor.c.o
+│   │   │   ├── null_monitor.c.o.d
+│   │   │   ├── null_window.c.o
+│   │   │   ├── null_window.c.o.d
+│   │   │   ├── osmesa_context.c.o
+│   │   │   ├── osmesa_context.c.o.d
+│   │   │   ├── platform.c.o
+│   │   │   ├── platform.c.o.d
+│   │   │   ├── posix_module.c.o
+│   │   │   ├── posix_module.c.o.d
+│   │   │   ├── posix_poll.c.o
+│   │   │   ├── posix_poll.c.o.d
+│   │   │   ├── posix_thread.c.o
+│   │   │   ├── posix_thread.c.o.d
+│   │   │   ├── posix_time.c.o
+│   │   │   ├── posix_time.c.o.d
+│   │   │   ├── progress.make
+│   │   │   ├── vulkan.c.o
+│   │   │   ├── vulkan.c.o.d
+│   │   │   ├── window.c.o
+│   │   │   ├── window.c.o.d
+│   │   │   ├── wl_init.c.o
+│   │   │   ├── wl_init.c.o.d
+│   │   │   ├── wl_monitor.c.o
+│   │   │   ├── wl_monitor.c.o.d
+│   │   │   ├── wl_window.c.o
+│   │   │   ├── wl_window.c.o.d
+│   │   │   ├── x11_init.c.o
+│   │   │   ├── x11_init.c.o.d
+│   │   │   ├── x11_monitor.c.o
+│   │   │   ├── x11_monitor.c.o.d
+│   │   │   ├── x11_window.c.o
+│   │   │   ├── x11_window.c.o.d
+│   │   │   ├── xkb_unicode.c.o
+│   │   │   └── xkb_unicode.c.o.d
+│   │   ├── progress.marks
+│   │   └── update_mappings.dir
+│   │       ├── build.make
+│   │       ├── cmake_clean.cmake
+│   │       ├── compiler_depend.make
+│   │       ├── compiler_depend.ts
+│   │       ├── DependInfo.cmake
+│   │       └── progress.make
+│   ├── cmake_install.cmake
+│   ├── CMakeLists.txt
+│   ├── cocoa_init.m
+│   ├── cocoa_joystick.h
+│   ├── cocoa_joystick.m
+│   ├── cocoa_monitor.m
+│   ├── cocoa_platform.h
+│   ├── cocoa_time.c
+│   ├── cocoa_time.h
+│   ├── cocoa_window.m
+│   ├── context.c
+│   ├── egl_context.c
+│   ├── fractional-scale-v1-client-protocol-code.h
+│   ├── fractional-scale-v1-client-protocol.h
+│   ├── glfw3Config.cmake
+│   ├── glfw3ConfigVersion.cmake
+│   ├── glfw3.pc
+│   ├── glfw.rc.in
+│   ├── glx_context.c
+│   ├── idle-inhibit-unstable-v1-client-protocol-code.h
+│   ├── idle-inhibit-unstable-v1-client-protocol.h
+│   ├── init.c
+│   ├── input.c
+│   ├── internal.h
+│   ├── libglfw3.a
+│   ├── linux_joystick.c
+│   ├── linux_joystick.h
+│   ├── Makefile
+│   ├── mappings.h
+│   ├── mappings.h.in
+│   ├── monitor.c
+│   ├── nsgl_context.m
+│   ├── null_init.c
+│   ├── null_joystick.c
+│   ├── null_joystick.h
+│   ├── null_monitor.c
+│   ├── null_platform.h
+│   ├── null_window.c
+│   ├── osmesa_context.c
+│   ├── platform.c
+│   ├── platform.h
+│   ├── pointer-constraints-unstable-v1-client-protocol-code.h
+│   ├── pointer-constraints-unstable-v1-client-protocol.h
+│   ├── posix_module.c
+│   ├── posix_poll.c
+│   ├── posix_poll.h
+│   ├── posix_thread.c
+│   ├── posix_thread.h
+│   ├── posix_time.c
+│   ├── posix_time.h
+│   ├── relative-pointer-unstable-v1-client-protocol-code.h
+│   ├── relative-pointer-unstable-v1-client-protocol.h
+│   ├── viewporter-client-protocol-code.h
+│   ├── viewporter-client-protocol.h
+│   ├── vulkan.c
+│   ├── wayland-client-protocol-code.h
+│   ├── wayland-client-protocol.h
+│   ├── wgl_context.c
+│   ├── win32_init.c
+│   ├── win32_joystick.c
+│   ├── win32_joystick.h
+│   ├── win32_module.c
+│   ├── win32_monitor.c
+│   ├── win32_platform.h
+│   ├── win32_thread.c
+│   ├── win32_thread.h
+│   ├── win32_time.c
+│   ├── win32_time.h
+│   ├── win32_window.c
+│   ├── window.c
+│   ├── wl_init.c
+│   ├── wl_monitor.c
+│   ├── wl_platform.h
+│   ├── wl_window.c
+│   ├── x11_init.c
+│   ├── x11_monitor.c
+│   ├── x11_platform.h
+│   ├── x11_window.c
+│   ├── xdg-activation-v1-client-protocol-code.h
+│   ├── xdg-activation-v1-client-protocol.h
+│   ├── xdg-decoration-unstable-v1-client-protocol-code.h
+│   ├── xdg-decoration-unstable-v1-client-protocol.h
+│   ├── xdg-shell-client-protocol-code.h
+│   ├── xdg-shell-client-protocol.h
+│   ├── xkb_unicode.c
+│   └── xkb_unicode.h
+└── tests
+    ├── allocator
+    ├── allocator.c
+    ├── clipboard
+    ├── clipboard.c
+    ├── CMakeFiles
+    │   ├── allocator.dir
+    │   │   ├── allocator.c.o
+    │   │   ├── allocator.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── clipboard.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── getopt.c.o
+    │   │   │       └── getopt.c.o.d
+    │   │   ├── build.make
+    │   │   ├── clipboard.c.o
+    │   │   ├── clipboard.c.o.d
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── CMakeDirectoryInformation.cmake
+    │   ├── cursor.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── cursor.c.o
+    │   │   ├── cursor.c.o.d
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── empty.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── tinycthread.c.o
+    │   │   │       └── tinycthread.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── empty.c.o
+    │   │   ├── empty.c.o.d
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── events.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── getopt.c.o
+    │   │   │       └── getopt.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── events.c.o
+    │   │   ├── events.c.o.d
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── gamma.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── gamma.c.o
+    │   │   ├── gamma.c.o.d
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── glfwinfo.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── getopt.c.o
+    │   │   │       └── getopt.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── glfwinfo.c.o
+    │   │   ├── glfwinfo.c.o.d
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── icon.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── icon.c.o
+    │   │   ├── icon.c.o.d
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── iconify.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── getopt.c.o
+    │   │   │       └── getopt.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── iconify.c.o
+    │   │   ├── iconify.c.o.d
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── inputlag.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── getopt.c.o
+    │   │   │       └── getopt.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── inputlag.c.o
+    │   │   ├── inputlag.c.o.d
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── joysticks.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── joysticks.c.o
+    │   │   ├── joysticks.c.o.d
+    │   │   ├── link.txt
+    │   │   └── progress.make
+    │   ├── monitors.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── getopt.c.o
+    │   │   │       └── getopt.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── monitors.c.o
+    │   │   ├── monitors.c.o.d
+    │   │   └── progress.make
+    │   ├── msaa.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── getopt.c.o
+    │   │   │       └── getopt.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── msaa.c.o
+    │   │   ├── msaa.c.o.d
+    │   │   └── progress.make
+    │   ├── progress.marks
+    │   ├── reopen.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── progress.make
+    │   │   ├── reopen.c.o
+    │   │   └── reopen.c.o.d
+    │   ├── tearing.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── progress.make
+    │   │   ├── tearing.c.o
+    │   │   └── tearing.c.o.d
+    │   ├── threads.dir
+    │   │   ├── __
+    │   │   │   └── deps
+    │   │   │       ├── tinycthread.c.o
+    │   │   │       └── tinycthread.c.o.d
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── progress.make
+    │   │   ├── threads.c.o
+    │   │   └── threads.c.o.d
+    │   ├── timeout.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── progress.make
+    │   │   ├── timeout.c.o
+    │   │   └── timeout.c.o.d
+    │   ├── title.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── progress.make
+    │   │   ├── title.c.o
+    │   │   └── title.c.o.d
+    │   ├── triangle-vulkan.dir
+    │   │   ├── build.make
+    │   │   ├── cmake_clean.cmake
+    │   │   ├── compiler_depend.internal
+    │   │   ├── compiler_depend.make
+    │   │   ├── compiler_depend.ts
+    │   │   ├── DependInfo.cmake
+    │   │   ├── depend.make
+    │   │   ├── flags.make
+    │   │   ├── link.txt
+    │   │   ├── progress.make
+    │   │   ├── triangle-vulkan.c.o
+    │   │   └── triangle-vulkan.c.o.d
+    │   └── window.dir
+    │       ├── build.make
+    │       ├── cmake_clean.cmake
+    │       ├── compiler_depend.internal
+    │       ├── compiler_depend.make
+    │       ├── compiler_depend.ts
+    │       ├── DependInfo.cmake
+    │       ├── depend.make
+    │       ├── flags.make
+    │       ├── link.txt
+    │       ├── progress.make
+    │       ├── window.c.o
+    │       └── window.c.o.d
+    ├── cmake_install.cmake
+    ├── CMakeLists.txt
+    ├── cursor
+    ├── cursor.c
+    ├── empty
+    ├── empty.c
+    ├── events
+    ├── events.c
+    ├── gamma
+    ├── gamma.c
+    ├── glfwinfo
+    ├── glfwinfo.c
+    ├── icon
+    ├── icon.c
+    ├── iconify
+    ├── iconify.c
+    ├── inputlag
+    ├── inputlag.c
+    ├── joysticks
+    ├── joysticks.c
+    ├── Makefile
+    ├── monitors
+    ├── monitors.c
+    ├── msaa
+    ├── msaa.c
+    ├── reopen
+    ├── reopen.c
+    ├── tearing
+    ├── tearing.c
+    ├── threads
+    ├── threads.c
+    ├── timeout
+    ├── timeout.c
+    ├── title
+    ├── title.c
+    ├── triangle-vulkan
+    ├── triangle-vulkan.c
+    ├── window
+    └── window.c
+
+80 directories, 921 files
